@@ -58,17 +58,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install chartpress==0.7.0
 
-    - name: Publish Chart to the remote dNationCloud helm repository
-      run: chartpress --publish-chart --tag ${{ steps.version.outputs.chart }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.CICD_TOKEN }}
+    # - name: Publish Chart to the remote dNationCloud helm repository
+    #   run: chartpress --publish-chart --tag ${{ steps.version.outputs.chart }}
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.CICD_TOKEN }}
 
-    - name: Tag branch
-      uses: anothrNick/github-tag-action@1.67.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.CICD_TOKEN }}
-        CUSTOM_TAG: 'v${{ steps.version.outputs.chart }}'
-        RELEASE_BRANCHES: main
+    # - name: Tag branch
+    #   uses: anothrNick/github-tag-action@1.67.0
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.CICD_TOKEN }}
+    #     CUSTOM_TAG: 'v${{ steps.version.outputs.chart }}'
+    #     RELEASE_BRANCHES: main
 
   generate-changelog:
     needs: release
@@ -78,14 +78,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: dNationCloud/kubernetes-monitoring
+          fetch-depth: 0
           ref: main
-          token: ${{ secrets.BOT_GITHUB_PAT }}
+          token: ${{ secrets.MY_FORK_PAT }}
 
       - name: "Update CHANGELOG"
         id: update-release-changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.3
         with:
-          token: ${{ secrets.BOT_GITHUB_PAT }}
+          token: ${{ secrets.MY_FORK_PAT }}
           onlyLastTag: false
           stripHeaders: false
           base: "CHANGELOG.md"
@@ -104,14 +105,14 @@ jobs:
 
       - name: Commit CHANGELOG
         run: |
-          git config --global user.name "${{ secrets.BOT_GITHUB_NAME }}"
-          git config --global user.email "${{ secrets.BOT_GITHUB_EMAIL }}"
-          git config --global user.password "${{ secrets.BOT_GITHUB_PAT }}"
+          git config --global user.name "$GITHUB_ACTOR"
+          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config --global user.password "${{ secrets.MY_FORK_PAT }}"
           git add CHANGELOG.md
           git commit -m "Update CHANGELOG.md"
 
       - name: Push CHANGELOG changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v0.8.0
         with:
-          github_token: "${{ secrets.BOT_GITHUB_PAT }}"
+          github_token: "${{ secrets.MY_FORK_PAT }}"
           branch: main
