@@ -23,6 +23,7 @@ on:
     paths:
     - 'chart/**'
     - 'jsonnet/**'
+  workflow_dispatch:
 
 jobs:
   release:
