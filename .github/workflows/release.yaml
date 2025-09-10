@@ -85,6 +85,7 @@ jobs:
         uses: heinrichreimer/github-changelog-generator-action@v2.3
         with:
           token: ${{ secrets.MY_FORK_PAT }}
+          unreleased: true
           onlyLastTag: false
           stripHeaders: false
           base: "CHANGELOG.md"
@@ -99,8 +100,7 @@ jobs:
           prWoLabels: true
           author: false
           verbose: true
-          unreleased: false
-
+          
       - name: Commit CHANGELOG
         run: |
           git config --global user.name "$GITHUB_ACTOR"
