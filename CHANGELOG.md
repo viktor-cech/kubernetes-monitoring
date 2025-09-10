@@ -1,5 +1,25 @@
 # Changelog
 
+## [Unreleased](https://github.com/dNationCloud/kubernetes-monitoring/tree/HEAD)
+
+[Full Changelog](https://github.com/dNationCloud/kubernetes-monitoring/compare/v2.7.3...HEAD)
+
+### Enhancements
+
+- Allow to add common annotations for all resources [\#201](https://github.com/dNationCloud/kubernetes-monitoring/issues/201)
+
+## [v2.7.3](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.7.3) (2025-09-09)
+
+[Full Changelog](https://github.com/dNationCloud/kubernetes-monitoring/compare/v2.7.2...v2.7.3)
+
+**Merged pull requests:**
+
+- commonAnnotations added  [\#207](https://github.com/dNationCloud/kubernetes-monitoring/pull/207) ([viktor-cech](https://github.com/viktor-cech))
+
+## [v2.7.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.7.2) (2025-05-29)
+
+[Full Changelog](https://github.com/dNationCloud/kubernetes-monitoring/compare/v2.7.1...v2.7.2)
+
 ## [v2.7.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.7.1) (2024-12-03)
 
 [Full Changelog](https://github.com/dNationCloud/kubernetes-monitoring/compare/v2.7.0...v2.7.1)
@@ -10,7 +30,7 @@
 
 **Merged pull requests:**
 
-- Fix issue with host-alert panel for grafana 10 [\#200](https://github.com/dNationCloud/kubernetes-monitoring/pull/200)
+- Fix issue with host-alert panel for grafana 10 [\#200](https://github.com/dNationCloud/kubernetes-monitoring/pull/200) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.7.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.7.0) (2024-02-14)
 
@@ -18,7 +38,7 @@
 
 **Merged pull requests:**
 
-- Port work from scs-kaas-mvp branch to the main branch [\#197](https://github.com/dNationCloud/kubernetes-monitoring/pull/197)
+- Port work from scs-kaas-mvp branch to the main branch [\#197](https://github.com/dNationCloud/kubernetes-monitoring/pull/197) ([chess-knight](https://github.com/chess-knight))
 
 ## [v2.6.3](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.6.3) (2024-01-29)
 
@@ -26,7 +46,7 @@
 
 **Merged pull requests:**
 
-- Add cluster label to alert link annotation [\#194](https://github.com/dNationCloud/kubernetes-monitoring/pull/194)
+- Add cluster label to alert link annotation [\#194](https://github.com/dNationCloud/kubernetes-monitoring/pull/194) ([chess-knight](https://github.com/chess-knight))
 
 ## [v2.6.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.6.2) (2023-11-21)
 
@@ -34,7 +54,7 @@
 
 **Merged pull requests:**
 
-- Preserve cluster label also for apps alerts [\#181](https://github.com/dNationCloud/kubernetes-monitoring/pull/181)
+- Preserve cluster label also for apps alerts [\#181](https://github.com/dNationCloud/kubernetes-monitoring/pull/181) ([chess-knight](https://github.com/chess-knight))
 
 ## [v2.6.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.6.1) (2023-11-21)
 
@@ -42,7 +62,7 @@
 
 **Merged pull requests:**
 
-- Fix old table panel in alert-overview we are using for Grafana versions 10+ [\#182](https://github.com/dNationCloud/kubernetes-monitoring/pull/182)
+- Fix old table panel in alert-overview we are using for Grafana versions 10+ [\#182](https://github.com/dNationCloud/kubernetes-monitoring/pull/182) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.6.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.6.0) (2023-11-21)
 
@@ -50,7 +70,7 @@
 
 **Merged pull requests:**
 
-- Preserve cluster label for alerts [\#180](https://github.com/dNationCloud/kubernetes-monitoring/pull/180)
+- Preserve cluster label for alerts [\#180](https://github.com/dNationCloud/kubernetes-monitoring/pull/180) ([chess-knight](https://github.com/chess-knight))
 
 ## [v2.5.4](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.5.4) (2023-11-14)
 
@@ -58,7 +78,7 @@
 
 **Merged pull requests:**
 
-- Fix queries [\#178](https://github.com/dNationCloud/kubernetes-monitoring/pull/178)
+- Fix queries [\#178](https://github.com/dNationCloud/kubernetes-monitoring/pull/178) ([chess-knight](https://github.com/chess-knight))
 
 ## [v2.5.3](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.5.3) (2023-07-18)
 
@@ -66,7 +86,7 @@
 
 **Merged pull requests:**
 
-- Fix x and y coordinates of app box overview [\#170](https://github.com/dNationCloud/kubernetes-monitoring/pull/170)
+- Fix x and y coordinates of app box overview [\#170](https://github.com/dNationCloud/kubernetes-monitoring/pull/170) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.5.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.5.2) (2023-06-27)
 
@@ -74,7 +94,7 @@
 
 **Merged pull requests:**
 
-- Add ssl-exporter app to main dashboard [\#169](https://github.com/dNationCloud/kubernetes-monitoring/pull/169)
+- Add ssl-exporter app to main dashboard [\#169](https://github.com/dNationCloud/kubernetes-monitoring/pull/169) ([MatusJenca2](https://github.com/MatusJenca2))
 
 ## [v2.5.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.5.1) (2023-06-19)
 
@@ -86,7 +106,7 @@
 
 **Merged pull requests:**
 
-- Update SSL Exporter dashboard [\#168](https://github.com/dNationCloud/kubernetes-monitoring/pull/168)
+- Update SSL Exporter dashboard [\#168](https://github.com/dNationCloud/kubernetes-monitoring/pull/168) ([MatusJenca2](https://github.com/MatusJenca2))
 
 ## [v2.5.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.5.0) (2023-05-26)
 
@@ -94,7 +114,7 @@
 
 **Merged pull requests:**
 
-- Add Harbor dashboard [\#167](https://github.com/dNationCloud/kubernetes-monitoring/pull/167)
+- Add Harbor dashboard [\#167](https://github.com/dNationCloud/kubernetes-monitoring/pull/167) ([chess-knight](https://github.com/chess-knight))
 
 ## [v2.4.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.4.0) (2023-05-24)
 
@@ -102,8 +122,8 @@
 
 **Merged pull requests:**
 
-- Small comment in values.yaml [\#166](https://github.com/dNationCloud/kubernetes-monitoring/pull/166)
-- Add support for k8s version 1.24+ [\#165](https://github.com/dNationCloud/kubernetes-monitoring/pull/165)
+- Small comment in values.yaml [\#166](https://github.com/dNationCloud/kubernetes-monitoring/pull/166) ([chess-knight](https://github.com/chess-knight))
+- Add support for k8s version 1.24+ [\#165](https://github.com/dNationCloud/kubernetes-monitoring/pull/165) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.3.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.3.1) (2023-05-09)
 
@@ -111,7 +131,7 @@
 
 **Merged pull requests:**
 
-- Fix, ssl exporter dashboard [\#163](https://github.com/dNationCloud/kubernetes-monitoring/pull/163)
+- Fix, ssl exporter dashboard [\#163](https://github.com/dNationCloud/kubernetes-monitoring/pull/163) ([MatusJenca2](https://github.com/MatusJenca2))
 
 ## [v2.3.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.3.0) (2023-05-04)
 
@@ -119,7 +139,7 @@
 
 **Merged pull requests:**
 
-- Add dashboard for ssl-exporter [\#162](https://github.com/dNationCloud/kubernetes-monitoring/pull/162)
+- Add dashboard for ssl-exporter [\#162](https://github.com/dNationCloud/kubernetes-monitoring/pull/162) ([MatusJenca2](https://github.com/MatusJenca2))
 
 ## [v2.2.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.2.2) (2023-04-18)
 
@@ -127,7 +147,7 @@
 
 **Merged pull requests:**
 
-- Fix duplicate series for host monitoring in multicluster setup [\#161](https://github.com/dNationCloud/kubernetes-monitoring/pull/161)
+- Fix duplicate series for host monitoring in multicluster setup [\#161](https://github.com/dNationCloud/kubernetes-monitoring/pull/161) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.2.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.2.1) (2023-04-12)
 
@@ -135,8 +155,8 @@
 
 **Merged pull requests:**
 
-- Bump up monitoring version [\#160](https://github.com/dNationCloud/kubernetes-monitoring/pull/160)
-- Fix Docs badge [\#159](https://github.com/dNationCloud/kubernetes-monitoring/pull/159)
+- Bump up monitoring version [\#160](https://github.com/dNationCloud/kubernetes-monitoring/pull/160) ([michal-gubricky](https://github.com/michal-gubricky))
+- Fix Docs badge [\#159](https://github.com/dNationCloud/kubernetes-monitoring/pull/159) ([chess-knight](https://github.com/chess-knight))
 
 ## [v2.2.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.2.0) (2023-03-24)
 
@@ -149,7 +169,7 @@
 
 **Merged pull requests:**
 
-- Bump up translator version in dependencies [\#158](https://github.com/dNationCloud/kubernetes-monitoring/pull/158)
+- Bump up translator version in dependencies [\#158](https://github.com/dNationCloud/kubernetes-monitoring/pull/158) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.1.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.1.1) (2023-01-26)
 
@@ -157,7 +177,7 @@
 
 **Merged pull requests:**
 
-- Fix generation of docs and pages [\#157](https://github.com/dNationCloud/kubernetes-monitoring/pull/157)
+- Fix generation of docs and pages [\#157](https://github.com/dNationCloud/kubernetes-monitoring/pull/157) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.1.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.1.0) (2023-01-23)
 
@@ -165,7 +185,7 @@
 
 **Merged pull requests:**
 
-- V2.1.x [\#156](https://github.com/dNationCloud/kubernetes-monitoring/pull/156)
+- V2.1.x [\#156](https://github.com/dNationCloud/kubernetes-monitoring/pull/156) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v2.0.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.0.2) (2023-01-19)
 
@@ -177,7 +197,7 @@
 
 **Merged pull requests:**
 
-- Added alertgroup label for apps.rules [\#154](https://github.com/dNationCloud/kubernetes-monitoring/pull/154)
+- Added alertgroup label for apps.rules [\#154](https://github.com/dNationCloud/kubernetes-monitoring/pull/154) ([dnation-ldobrovodsky](https://github.com/dnation-ldobrovodsky))
 
 ## [v2.0.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v2.0.0) (2022-11-08)
 
@@ -185,7 +205,7 @@
 
 **Merged pull requests:**
 
-- Update dashboards for multi-cluster monitoring [\#153](https://github.com/dNationCloud/kubernetes-monitoring/pull/153)
+- Update dashboards for multi-cluster monitoring [\#153](https://github.com/dNationCloud/kubernetes-monitoring/pull/153) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v1.4.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.4.2) (2022-10-11)
 
@@ -197,8 +217,8 @@
 
 **Merged pull requests:**
 
-- Change ControlPlane template [\#152](https://github.com/dNationCloud/kubernetes-monitoring/pull/152)
-- Update github-tag-action to 1.39.0 [\#151](https://github.com/dNationCloud/kubernetes-monitoring/pull/151)
+- Change ControlPlane template [\#152](https://github.com/dNationCloud/kubernetes-monitoring/pull/152) ([marek-jiri](https://github.com/marek-jiri))
+- Update github-tag-action to 1.39.0 [\#151](https://github.com/dNationCloud/kubernetes-monitoring/pull/151) ([marek-jiri](https://github.com/marek-jiri))
 
 ## [v1.4.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.4.1) (2022-08-15)
 
@@ -216,8 +236,8 @@
 
 **Merged pull requests:**
 
-- Update template values to work with grafana 9 [\#149](https://github.com/dNationCloud/kubernetes-monitoring/pull/149)
-- Fixed config for kind [\#142](https://github.com/dNationCloud/kubernetes-monitoring/pull/142)
+- Update template values to work with grafana 9 [\#149](https://github.com/dNationCloud/kubernetes-monitoring/pull/149) ([marek-jiri](https://github.com/marek-jiri))
+- Fixed config for kind [\#142](https://github.com/dNationCloud/kubernetes-monitoring/pull/142) ([MatusJenca2](https://github.com/MatusJenca2))
 
 ## [v1.4.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.4.0) (2022-02-11)
 
@@ -235,7 +255,7 @@
 
 **Merged pull requests:**
 
-- V1.4.x [\#139](https://github.com/dNationCloud/kubernetes-monitoring/pull/139)
+- V1.4.x [\#139](https://github.com/dNationCloud/kubernetes-monitoring/pull/139) ([davidsuba](https://github.com/davidsuba))
 
 ## [v1.3.4](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.3.4) (2022-01-11)
 
@@ -247,7 +267,7 @@
 
 **Merged pull requests:**
 
-- Fix color problem on Light theme for Used/Total Cores/Ram/Disk [\#132](https://github.com/dNationCloud/kubernetes-monitoring/pull/132)
+- Fix color problem on Light theme for Used/Total Cores/Ram/Disk [\#132](https://github.com/dNationCloud/kubernetes-monitoring/pull/132) ([huzlak](https://github.com/huzlak))
 
 ## [v1.3.3](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.3.3) (2021-06-22)
 
@@ -255,7 +275,7 @@
 
 **Merged pull requests:**
 
-- Use 'Last \(not null\)' reducer function in L3 pvc gauge panels [\#126](https://github.com/dNationCloud/kubernetes-monitoring/pull/126)
+- Use 'Last \(not null\)' reducer function in L3 pvc gauge panels [\#126](https://github.com/dNationCloud/kubernetes-monitoring/pull/126) ([chess-knight](https://github.com/chess-knight))
 
 ## [v1.3.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.3.2) (2021-06-21)
 
@@ -268,7 +288,7 @@
 
 **Merged pull requests:**
 
-- L2fixes [\#124](https://github.com/dNationCloud/kubernetes-monitoring/pull/124)
+- L2fixes [\#124](https://github.com/dNationCloud/kubernetes-monitoring/pull/124) ([chess-knight](https://github.com/chess-knight))
 
 ## [v1.3.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.3.1) (2021-06-17)
 
@@ -289,7 +309,7 @@
 
 **Merged pull requests:**
 
-- Minor graph fixies [\#122](https://github.com/dNationCloud/kubernetes-monitoring/pull/122)
+- Minor graph fixies [\#122](https://github.com/dNationCloud/kubernetes-monitoring/pull/122) ([matofeder](https://github.com/matofeder))
 
 ## [v1.3.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.3.0) (2021-06-07)
 
@@ -307,11 +327,11 @@
 
 **Merged pull requests:**
 
-- V1.3.x [\#114](https://github.com/dNationCloud/kubernetes-monitoring/pull/114)
-- Update AWS\_doc.md [\#106](https://github.com/dNationCloud/kubernetes-monitoring/pull/106)
-- Update aws\_doc.md [\#102](https://github.com/dNationCloud/kubernetes-monitoring/pull/102)
-- Rename namespace in AWS-doc.md [\#101](https://github.com/dNationCloud/kubernetes-monitoring/pull/101)
-- Aws doc [\#92](https://github.com/dNationCloud/kubernetes-monitoring/pull/92)
+- V1.3.x [\#114](https://github.com/dNationCloud/kubernetes-monitoring/pull/114) ([chess-knight](https://github.com/chess-knight))
+- Update AWS\_doc.md [\#106](https://github.com/dNationCloud/kubernetes-monitoring/pull/106) ([michal-gubricky](https://github.com/michal-gubricky))
+- Update aws\_doc.md [\#102](https://github.com/dNationCloud/kubernetes-monitoring/pull/102) ([michal-gubricky](https://github.com/michal-gubricky))
+- Rename namespace in AWS-doc.md [\#101](https://github.com/dNationCloud/kubernetes-monitoring/pull/101) ([michal-gubricky](https://github.com/michal-gubricky))
+- Aws doc [\#92](https://github.com/dNationCloud/kubernetes-monitoring/pull/92) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v1.2.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.2.1) (2021-05-13)
 
@@ -323,7 +343,7 @@
 
 **Merged pull requests:**
 
-- Consider null values in stacked graphs as zero [\#91](https://github.com/dNationCloud/kubernetes-monitoring/pull/91)
+- Consider null values in stacked graphs as zero [\#91](https://github.com/dNationCloud/kubernetes-monitoring/pull/91) ([davidsuba](https://github.com/davidsuba))
 
 ## [cicd-jsonnet-v1.0.3](https://github.com/dNationCloud/kubernetes-monitoring/tree/cicd-jsonnet-v1.0.3) (2021-05-04)
 
@@ -341,7 +361,7 @@
 
 **Merged pull requests:**
 
-- V1.2.x [\#89](https://github.com/dNationCloud/kubernetes-monitoring/pull/89)
+- V1.2.x [\#89](https://github.com/dNationCloud/kubernetes-monitoring/pull/89) ([davidsuba](https://github.com/davidsuba))
 
 ## [v1.1.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.1.2) (2021-04-21)
 
@@ -359,7 +379,7 @@
 
 **Merged pull requests:**
 
-- Change nginxIngressCertificateExpiry expr to preserve labels [\#81](https://github.com/dNationCloud/kubernetes-monitoring/pull/81)
+- Change nginxIngressCertificateExpiry expr to preserve labels [\#81](https://github.com/dNationCloud/kubernetes-monitoring/pull/81) ([chess-knight](https://github.com/chess-knight))
 
 ## [v1.1.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.1.1) (2021-02-25)
 
@@ -372,7 +392,7 @@
 
 **Merged pull requests:**
 
-- Fix Job select in Job Overview [\#64](https://github.com/dNationCloud/kubernetes-monitoring/pull/64)
+- Fix Job select in Job Overview [\#64](https://github.com/dNationCloud/kubernetes-monitoring/pull/64) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v1.1.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.1.0) (2021-02-23)
 
@@ -396,10 +416,10 @@
 
 **Merged pull requests:**
 
-- V1.1.x [\#61](https://github.com/dNationCloud/kubernetes-monitoring/pull/61)
-- Escape quotes in docs [\#53](https://github.com/dNationCloud/kubernetes-monitoring/pull/53)
-- Update contributing [\#52](https://github.com/dNationCloud/kubernetes-monitoring/pull/52)
-- Lint appVersion always with main branch [\#49](https://github.com/dNationCloud/kubernetes-monitoring/pull/49)
+- V1.1.x [\#61](https://github.com/dNationCloud/kubernetes-monitoring/pull/61) ([jurslo](https://github.com/jurslo))
+- Escape quotes in docs [\#53](https://github.com/dNationCloud/kubernetes-monitoring/pull/53) ([davidsuba](https://github.com/davidsuba))
+- Update contributing [\#52](https://github.com/dNationCloud/kubernetes-monitoring/pull/52) ([davidsuba](https://github.com/davidsuba))
+- Lint appVersion always with main branch [\#49](https://github.com/dNationCloud/kubernetes-monitoring/pull/49) ([davidsuba](https://github.com/davidsuba))
 
 ## [v1.0.25](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.25) (2021-02-05)
 
@@ -411,9 +431,9 @@
 
 **Merged pull requests:**
 
-- Fix linting appVersion in ci [\#44](https://github.com/dNationCloud/kubernetes-monitoring/pull/44)
-- Fix missing escape of '%' in jsonnet [\#42](https://github.com/dNationCloud/kubernetes-monitoring/pull/42)
-- Add ci check of appVersion [\#38](https://github.com/dNationCloud/kubernetes-monitoring/pull/38)
+- Fix linting appVersion in ci [\#44](https://github.com/dNationCloud/kubernetes-monitoring/pull/44) ([davidsuba](https://github.com/davidsuba))
+- Fix missing escape of '%' in jsonnet [\#42](https://github.com/dNationCloud/kubernetes-monitoring/pull/42) ([jurslo](https://github.com/jurslo))
+- Add ci check of appVersion [\#38](https://github.com/dNationCloud/kubernetes-monitoring/pull/38) ([davidsuba](https://github.com/davidsuba))
 
 ## [v1.0.24](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.24) (2021-02-03)
 
@@ -425,7 +445,7 @@
 
 **Merged pull requests:**
 
-- Round value of NginxIngressSuccessRateLow alert [\#40](https://github.com/dNationCloud/kubernetes-monitoring/pull/40)
+- Round value of NginxIngressSuccessRateLow alert [\#40](https://github.com/dNationCloud/kubernetes-monitoring/pull/40) ([jurslo](https://github.com/jurslo))
 
 ## [v1.0.23](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.23) (2021-02-03)
 
@@ -438,8 +458,8 @@
 
 **Merged pull requests:**
 
-- Add grafana dashboard link to alerts [\#32](https://github.com/dNationCloud/kubernetes-monitoring/pull/32)
-- Simplify local development [\#31](https://github.com/dNationCloud/kubernetes-monitoring/pull/31)
+- Add grafana dashboard link to alerts [\#32](https://github.com/dNationCloud/kubernetes-monitoring/pull/32) ([davidsuba](https://github.com/davidsuba))
+- Simplify local development [\#31](https://github.com/dNationCloud/kubernetes-monitoring/pull/31) ([matofeder](https://github.com/matofeder))
 
 ## [v1.0.22](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.22) (2021-01-25)
 
@@ -451,7 +471,7 @@
 
 **Merged pull requests:**
 
-- Add HOST IP address info table to the NodeExporter [\#29](https://github.com/dNationCloud/kubernetes-monitoring/pull/29)
+- Add HOST IP address info table to the NodeExporter [\#29](https://github.com/dNationCloud/kubernetes-monitoring/pull/29) ([michal-gubricky](https://github.com/michal-gubricky))
 
 ## [v1.0.21](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.21) (2021-01-25)
 
@@ -464,9 +484,9 @@
 
 **Merged pull requests:**
 
-- Add option to change grafana directory [\#28](https://github.com/dNationCloud/kubernetes-monitoring/pull/28)
-- Change docs from json to yaml [\#26](https://github.com/dNationCloud/kubernetes-monitoring/pull/26)
-- Update README.md [\#23](https://github.com/dNationCloud/kubernetes-monitoring/pull/23)
+- Add option to change grafana directory [\#28](https://github.com/dNationCloud/kubernetes-monitoring/pull/28) ([davidsuba](https://github.com/davidsuba))
+- Change docs from json to yaml [\#26](https://github.com/dNationCloud/kubernetes-monitoring/pull/26) ([davidsuba](https://github.com/davidsuba))
+- Update README.md [\#23](https://github.com/dNationCloud/kubernetes-monitoring/pull/23) ([MlsnyLisiak](https://github.com/MlsnyLisiak))
 
 ## [v1.0.20](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.20) (2021-01-14)
 
@@ -474,7 +494,7 @@
 
 **Merged pull requests:**
 
-- Docs [\#15](https://github.com/dNationCloud/kubernetes-monitoring/pull/15)
+- Docs [\#15](https://github.com/dNationCloud/kubernetes-monitoring/pull/15) ([matofeder](https://github.com/matofeder))
 
 ## [cicd-jsonnet-v1.0.2](https://github.com/dNationCloud/kubernetes-monitoring/tree/cicd-jsonnet-v1.0.2) (2021-01-14)
 
@@ -482,11 +502,11 @@
 
 **Merged pull requests:**
 
-- Update ci/cd image version to 1.0.2 [\#14](https://github.com/dNationCloud/kubernetes-monitoring/pull/14)
-- Sync gitlab main [\#13](https://github.com/dNationCloud/kubernetes-monitoring/pull/13)
-- Fix release.yaml bug [\#12](https://github.com/dNationCloud/kubernetes-monitoring/pull/12)
-- Update CODE\_OF\_CONDUCT.md [\#11](https://github.com/dNationCloud/kubernetes-monitoring/pull/11)
-- Update CODE\_OF\_CONDUCT.md [\#10](https://github.com/dNationCloud/kubernetes-monitoring/pull/10)
+- Update ci/cd image version to 1.0.2 [\#14](https://github.com/dNationCloud/kubernetes-monitoring/pull/14) ([matofeder](https://github.com/matofeder))
+- Sync gitlab main [\#13](https://github.com/dNationCloud/kubernetes-monitoring/pull/13) ([matofeder](https://github.com/matofeder))
+- Fix release.yaml bug [\#12](https://github.com/dNationCloud/kubernetes-monitoring/pull/12) ([MlsnyLisiak](https://github.com/MlsnyLisiak))
+- Update CODE\_OF\_CONDUCT.md [\#11](https://github.com/dNationCloud/kubernetes-monitoring/pull/11) ([MlsnyLisiak](https://github.com/MlsnyLisiak))
+- Update CODE\_OF\_CONDUCT.md [\#10](https://github.com/dNationCloud/kubernetes-monitoring/pull/10) ([MlsnyLisiak](https://github.com/MlsnyLisiak))
 
 ## [v1.0.19](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.19) (2020-11-13)
 
@@ -494,8 +514,8 @@
 
 **Merged pull requests:**
 
-- Update README.md [\#9](https://github.com/dNationCloud/kubernetes-monitoring/pull/9)
-- Node filter [\#8](https://github.com/dNationCloud/kubernetes-monitoring/pull/8)
+- Update README.md [\#9](https://github.com/dNationCloud/kubernetes-monitoring/pull/9) ([MlsnyLisiak](https://github.com/MlsnyLisiak))
+- Node filter [\#8](https://github.com/dNationCloud/kubernetes-monitoring/pull/8) ([chess-knight](https://github.com/chess-knight))
 
 ## [cicd-jsonnet-v1.0.1](https://github.com/dNationCloud/kubernetes-monitoring/tree/cicd-jsonnet-v1.0.1) (2020-11-11)
 
@@ -503,7 +523,7 @@
 
 **Merged pull requests:**
 
-- Increase version of packages in docker image [\#7](https://github.com/dNationCloud/kubernetes-monitoring/pull/7)
+- Increase version of packages in docker image [\#7](https://github.com/dNationCloud/kubernetes-monitoring/pull/7) ([chess-knight](https://github.com/chess-knight))
 
 ## [cicd-jsonnet-v1.0.0](https://github.com/dNationCloud/kubernetes-monitoring/tree/cicd-jsonnet-v1.0.0) (2020-11-10)
 
@@ -511,7 +531,7 @@
 
 **Merged pull requests:**
 
-- Create tag when CI/CD jsonnet docker code changes [\#6](https://github.com/dNationCloud/kubernetes-monitoring/pull/6)
+- Create tag when CI/CD jsonnet docker code changes [\#6](https://github.com/dNationCloud/kubernetes-monitoring/pull/6) ([jurslo](https://github.com/jurslo))
 
 ## [v1.0.18](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.18) (2020-10-28)
 
@@ -519,7 +539,7 @@
 
 **Merged pull requests:**
 
-- Notes [\#4](https://github.com/dNationCloud/kubernetes-monitoring/pull/4)
+- Notes [\#4](https://github.com/dNationCloud/kubernetes-monitoring/pull/4) ([matofeder](https://github.com/matofeder))
 
 ## [v1.0.17](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.17) (2020-10-27)
 
@@ -527,7 +547,7 @@
 
 **Merged pull requests:**
 
-- Update CDN image urls [\#3](https://github.com/dNationCloud/kubernetes-monitoring/pull/3)
+- Update CDN image urls [\#3](https://github.com/dNationCloud/kubernetes-monitoring/pull/3) ([matofeder](https://github.com/matofeder))
 
 ## [v1.0.16](https://github.com/dNationCloud/kubernetes-monitoring/tree/v1.0.16) (2020-10-26)
 
@@ -535,44 +555,9 @@
 
 **Merged pull requests:**
 
-- Add jsonnet build and lint to the GitHub CI/CD pipeline and update chart version [\#2](https://github.com/dNationCloud/kubernetes-monitoring/pull/2)
-- Add GitHub CI/CD [\#1](https://github.com/dNationCloud/kubernetes-monitoring/pull/1)
+- Add jsonnet build and lint to the GitHub CI/CD pipeline and update chart version [\#2](https://github.com/dNationCloud/kubernetes-monitoring/pull/2) ([matofeder](https://github.com/matofeder))
+- Add GitHub CI/CD [\#1](https://github.com/dNationCloud/kubernetes-monitoring/pull/1) ([matofeder](https://github.com/matofeder))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\* *This Changelog was automatically generated by [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)*
