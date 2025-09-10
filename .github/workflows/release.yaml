@@ -111,8 +111,9 @@ jobs:
           git add CHANGELOG.md
           git commit -m "Update CHANGELOG.md"
 
-      - name: Push CHANGELOG changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: "${{ secrets.BOT_GITHUB_PAT }}"
-          branch: main
+
+   #   - name: Push CHANGELOG changes
+   #     uses: ad-m/github-push-action@v0.6.0
+   #     with:
+   #       github_token: "${{ secrets.BOT_GITHUB_PAT }}"
+   #       branch: main
