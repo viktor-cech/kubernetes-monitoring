@@ -110,6 +110,7 @@ jobs:
           git config --global user.password "${{ secrets.MY_FORK_PAT }}"
           git add CHANGELOG.md
           git commit -m "Update CHANGELOG.md"
+          git status
 
       - name: Push CHANGELOG changes
         uses: ad-m/github-push-action@v0.8.0
